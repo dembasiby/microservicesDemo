@@ -1,4 +1,4 @@
-package com.dembasiby.departmentservice.dto;
+package com.dembasiby.employeeservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -6,11 +6,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter @Setter
-
 @AllArgsConstructor @NoArgsConstructor
-public class DepartmentDto {
+public class EmployeeDto {
     private Long id;
-    private String departmentName;
-    private String departmentDescription;
-    private String DepartmentCode;
+    private String firstName;
+    private String lastName;
+    private String email;
 }
